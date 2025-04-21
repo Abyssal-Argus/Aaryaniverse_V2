@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -19,8 +21,71 @@
   }
 }
 
+html{
+  scroll-snap-type: mandatory;
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.libre-bodoni{
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.lappy {
+  height: 100%;
+  width: auto;
+}
+
+@media (min-width: 1300px) {
+  .lappy {
+    min-height: 220vh;
+    height: auto;
+  }
+}
+
+#smoll{
+  height: 100%;
+  width: auto;
+}
+
+@media (max-width: 375px) {
+  #smoll {
+    min-height: 200vh;
+    height: auto;
+  }
+}
+
+.card {
+  @apply w-80 cursor-pointer border-b-4 border-cyan-300 rounded-md bg-gradient-to-t from-white/20 h-96 text-center py-7 self-end duration-500 delay-100 hover:h-[26rem];
+}
+
+.card-active{
+  @apply delay-100 duration-300;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
 }

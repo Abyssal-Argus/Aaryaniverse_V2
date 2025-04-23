@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aaryaniverse",
+  title: "Aaryaniverse | Next.js Developer",
   description: "Aaryan's portfolio",
   icons: {
     icon: "/favicon.ico",

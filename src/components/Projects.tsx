@@ -127,13 +127,13 @@ const Project = () => {
                     >
                       <h2 
                         className={`poppins-medium text-2xl mt-5 font-bold text-cyan-300 ${visible === index ? 'opacity-100' : 'opacity-0'} transition-opacity duration-300`} 
-                        style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.9)'}}
+                        style={{textShadow: '1px 1px 1px rgba(0, 0, 0, 1)'}}
                       >
                         {project.projname}
                       </h2>
                       <h2 
                         className={`poppins-medium text-sm mt-5 font-bold text-cyan-300 ${visible === index ? 'opacity-100' : 'opacity-0'} transition-opacity duration-300`} 
-                        style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.9)'}}
+                        style={{textShadow: '1px 1px 1px rgba(0, 0, 0, 1)'}}
                       >
                         {project.projdesc}
                       </h2>
@@ -167,7 +167,7 @@ const Project = () => {
               backgroundRepeat: 'no-repeat',
               }}
             className='flex flex-col font-bold rounded-3xl justify-center text-center text-cyan-300 w-3/4 h-96'>
-              <h1 className='mt-48' style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.9) poppins-medium'}}>{project.projname}</h1>
+              <h1 className='mt-48  poppins-medium' style={{textShadow: '1px 1px 1px rgba(0, 0, 0, 1)'}}>{project.projname}</h1>
               <div className='flex justify-center mt-5'>
               <a href={project.url} className='py-2 px-4 rounded-md text-white bg-cyan-400 hover:bg-cyan-700 w-36 poppins-medium'>View Project</a>
               </div>

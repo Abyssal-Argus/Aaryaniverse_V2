@@ -4,6 +4,7 @@ import "swiper/css";
 import { Autoplay } from "swiper/modules";
 import React, { useState } from "react";
 
+
 type Project = {
   id: number;
   projpic: string;
@@ -28,52 +29,52 @@ const Project = () => {
   const projects: Project[] = [
     {
       id: 1,
-      projpic: "/images/projects/pj1.png",
+      projpic: "/images/projects/pj1.PNG",
       projname: 'Benelli Website',
       projdesc: 'My love for benelli made me create this website using Django, this page shows details about various benelli bikes.',
       url: 'https://github.com/Abyssal-Argus/Benelli'
     },
     {
       id: 2,
-      projpic: "/images/projects/pj2.png",
+      projpic: "/images/projects/pj2.PNG",
       projname: 'Ecommerce website',
       projdesc: 'A Django project that allows users to register and auction their products.',
       url: 'https://github.com/Abyssal-Argus/COMMERCE'
     },
     {
       id: 3,
-      projpic: "/images/projects/pj3.png",
+      projpic: "/images/projects/pj3.PNG",
       projname: 'Pokemon Card Generator',
       projdesc: "This is a vanilla JavaScript project that randomly generates pokemon (till Kalos region) and displays its stats.",
       url: 'https://github.com/Abyssal-Argus/pokemon-card-generator'
     },
     {
       id: 4,
-      projpic: "/images/projects/pj4.png",
+      projpic: "/images/projects/pj4.PNG",
       projname: 'Weather App',
       projdesc: 'Gives accurate real-time weather information of the location you have entered.',
       url: 'https://github.com/Abyssal-Argus/weather-app'
     },
     {
       id: 5,
-      projpic: "/images/projects/pj5.png",
+      projpic: "/images/projects/pj5.PNG",
       projname: 'NepAir (Frontend)',
       projdesc: "Herald college's final year project (frontend only), which I made using React.",
       url: 'https://github.com/Abyssal-Argus/Nepair'
     },
     {
       id: 6,
-      projpic: "/images/projects/pj6.png",
+      projpic: "/images/projects/pj6.PNG",
       projname: 'Custom Portfolio',
       projdesc: "Allows you to generate your own portfolio with the information you have provided.",
       url: 'https://github.com/Abyssal-Argus/custom-portfolio'
     },
     {
       id: 7,
-      projpic: "/images/projects/pj7.png",
+      projpic: "/images/projects/pj7.PNG",
       projname: 'Aaryaniverse V1',
       projdesc: "My 1st ever official portfolio made using React hosted on netlify.",
-      url: 'https://aaryaniverse.netlify.app/'
+      url: 'https://aaryaniversev1.netlify.app/'
     },
   ];
 

@@ -19,7 +19,10 @@ export default function Home() {
     AOS.init({
       duration: 1000,
       once: false,
-      offset:70
+      offset:70,
+      disable: function () {
+        return window.innerWidth < 821;
+      }
     });
   }, []);
   return (

@@ -76,6 +76,13 @@ const Project = () => {
       projdesc: "My 1st ever official portfolio made using React hosted on netlify.",
       url: 'https://aaryaniversev1.netlify.app/'
     },
+    {
+      id: 8,
+      projpic: "/images/projects/pj8.PNG",
+      projname: 'CRUD Project',
+      projdesc: "A small project built using the MERN stack with TypeScript integration.",
+      url: 'https://github.com/Abyssal-Argus/MERN-CRUD-with-TS'
+    },
   ];
 
   return (

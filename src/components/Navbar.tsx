@@ -10,7 +10,7 @@ export default function Navbar({ className }: { className?: string }) {
   return (
 <>
 <div
-      className={cn(" fixed top-10 inset-x-0 max-w-5xl mx-auto z-40 hidden lg:block poppins-medium", className)}
+      className={cn(" fixed top-0 inset-x-0 max-w-5xl mx-auto z-40 hidden lg:block poppins-medium", className)}
     >
       <Menu setActive={setActive}>
         <Link href={"#about"}>

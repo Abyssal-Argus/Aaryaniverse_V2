@@ -11,15 +11,15 @@ type Tech={
 const techs:Tech[]=[
     {
         id: 1,
-        img: '/images/tech/html.png', 
-        title: 'HTML ',
-        progress: 90,
+        img: '/images/tech/ts.png', 
+        title: 'Typecript',
+        progress: 70,
     },
     {
         id: 2,
-        img:'/images/tech/css.png', 
-        title: 'CSS ',
-        progress: 80,
+        img:'/images/tech/react.png', 
+        title: 'React ',
+        progress: 65,
     },
     {
         id: 3,
@@ -29,9 +29,9 @@ const techs:Tech[]=[
     },
     {
         id: 4,
-        img:'/images/tech/python.png', 
-        title: 'Python ',
-        progress: 60,
+        img: '/images/tech/tailwind.png', 
+        title: 'Tailwind CSS',
+        progress: 75,
     },
     {
         id: 5,
@@ -41,45 +41,21 @@ const techs:Tech[]=[
     },
     {
         id: 6,
-        img: '/images/tech/mysql.png', 
-        title: 'MySQL ',
-        progress: 50,
-    },
-    {
-        id: 7,
-        img:'/images/tech/react.png', 
-        title: 'React ',
-        progress: 65,
-    },
-    {
-        id: 8,
-        img:'/images/tech/nextjs.png', 
-        title: 'Next.js ',
-        progress: 55,
-    },
-    {
-        id: 9,
         img:'/images/tech/django.png', 
         title: 'Django ' ,
         progress: 60,
     },
     {
-        id: 10,
-        img:'/images/tech/drf.png', 
-        title: 'DRF ',
-        progress: 30,
+        id: 7,
+        img: '/images/tech/mongo.png', 
+        title: 'MongoDB',
+        progress: 40,
     },
     {
-        id: 11,
-        img: '/images/tech/git.png', 
-        title: 'Git ',
-        progress: 50,
-    },
-    {
-        id: 12,
-        img: '/images/tech/tailwind.png', 
-        title: 'Tailwind ',
-        progress: 75,
+        id: 8,
+        img: '/images/tech/node.png', 
+        title: 'Node',
+        progress: 40,
     }
 ]
 
